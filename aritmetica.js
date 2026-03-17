@@ -26,16 +26,21 @@ function potencia_anabel_leyva(a, b) {
     return Math.pow(a, b);
 }
 
-function multiSimoneFabianaGuzmanRivera(firstNumber, secondNumber){
-    return firstNumber * secondNumber;
+function promedioSimoneFabianaGuzmanRivera(a, b){
+    return (a + b) / 2;
+}
+function raizGilmerHurtadoPeralta(a){
+    return Math.sqrt(a);
 }
 
 console.log("La suma es: " + sumaJoaquinOctavioTapiaVera(a, b));
 console.log("La resta es: " + restaAlejandroAmaruCondoriMorales(a, b));
-console.log("la division es:" + divisionCalepGiovanniPatinoLazarte(a,b));
-console.log("la multiplicacion es:" + multiplicacionAlexNinaCopatiti(a,b));
+console.log("La division es: " + divisionCalepGiovanniPatinoLazarte(a,b));
+console.log("La multiplicacion es: " + multiplicacionAlexNinaCopatiti(a,b));
 console.log("El modulo es: " + moduloWilberOjedaValente1(a, b));
 console.log("La potencia es: " + potencia_anabel_leyva(a, b));
-console.log("La multiplicación es:" +multiSimoneFabianaGuzmanRivera(a, b));
+console.log("El promedio es: " + promedioSimoneFabianaGuzmanRivera(a, b));
+console.log("La raiz de a es: " + raizGilmerHurtadoPeralta(a));
+
 
 
