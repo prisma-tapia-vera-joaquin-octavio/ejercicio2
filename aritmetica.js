@@ -22,9 +22,13 @@ function multiplicacionAlexNinaCopatiti(a,b){
 function moduloWilberOjedaValente1(a, b){
     return a % b;
 }
+function potencia_anabel_leyva(a, b) {
+    return Math.pow(a, b);
+}
 
 console.log("La suma es: " + sumaJoaquinOctavioTapiaVera(a, b));
 console.log("La resta es: " + restaAlejandroAmaruCondoriMorales(a, b));
 console.log("la division es:" + divisionCalepGiovanniPatinoLazarte(a,b));
 console.log("la multiplicacion es:" + multiplicacionAlexNinaCopatiti(a,b));
 console.log("El modulo es: " + moduloWilberOjedaValente1(a, b));
+console.log("La potencia es: " + potencia_anabel_leyva(a, b));
