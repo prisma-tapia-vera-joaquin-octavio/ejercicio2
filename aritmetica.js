@@ -6,6 +6,12 @@ function restaAlejandroAmaruCondoriMorales(a, b){
     return a-b;
 }
 
+function dividir(dividendo, divisor) {
+    if (divisor === 0) {
+        return "Error: División por cero";
+    }
+    return dividendo / divisor;
+}
 <<<<<<< HEAD
 let a = 10;
 let b = 5;
