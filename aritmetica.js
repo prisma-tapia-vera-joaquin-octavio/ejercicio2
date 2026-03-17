@@ -26,9 +26,16 @@ function potencia_anabel_leyva(a, b) {
     return Math.pow(a, b);
 }
 
+function multiSimoneFabianaGuzmanRivera(firstNumber, secondNumber){
+    return firstNumber * secondNumber;
+}
+
 console.log("La suma es: " + sumaJoaquinOctavioTapiaVera(a, b));
 console.log("La resta es: " + restaAlejandroAmaruCondoriMorales(a, b));
 console.log("la division es:" + divisionCalepGiovanniPatinoLazarte(a,b));
 console.log("la multiplicacion es:" + multiplicacionAlexNinaCopatiti(a,b));
 console.log("El modulo es: " + moduloWilberOjedaValente1(a, b));
 console.log("La potencia es: " + potencia_anabel_leyva(a, b));
+console.log("La multiplicación es:" +multiSimoneFabianaGuzmanRivera(a, b));
+
+
