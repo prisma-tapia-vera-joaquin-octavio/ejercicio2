@@ -32,7 +32,9 @@ function promedioSimoneFabianaGuzmanRivera(a, b){
 function raizGilmerHurtadoPeralta(a){
     return Math.sqrt(a);
 }
-
+function porcentajeJhonnPabloCalsinaSoto(a, b){
+    return (a * b) / 100;
+}
 console.log("La suma es: " + sumaJoaquinOctavioTapiaVera(a, b));
 console.log("La resta es: " + restaAlejandroAmaruCondoriMorales(a, b));
 console.log("La division es: " + divisionCalepGiovanniPatinoLazarte(a,b));
@@ -41,6 +43,7 @@ console.log("El modulo es: " + moduloWilberOjedaValente1(a, b));
 console.log("La potencia es: " + potencia_anabel_leyva(a, b));
 console.log("El promedio es: " + promedioSimoneFabianaGuzmanRivera(a, b));
 console.log("La raiz de a es: " + raizGilmerHurtadoPeralta(a));
+console.log("El porcentaje es: " + porcentajeJhonnPabloCalsinaSoto(a, b));
 
 
 
