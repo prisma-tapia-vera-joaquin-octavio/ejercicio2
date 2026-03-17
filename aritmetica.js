@@ -22,3 +22,7 @@ function multiplicacionAlexNinaCopatiti(a,b){
     return a * b;
 }
 console.log("la multiplicacion es:" + multiplicacionAlexNinaCopatiti(a,b));
+
+function potenciaGilmerHurtadoPeralta(a,b){
+    return a ** b;
+}
