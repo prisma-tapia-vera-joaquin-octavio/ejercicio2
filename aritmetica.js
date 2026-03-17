@@ -6,6 +6,7 @@ function restaAlejandroAmaruCondoriMorales(a, b){
     return a-b;
 }
 
+<<<<<<< HEAD
 let a = 10;
 let b = 5;
 
@@ -22,3 +23,15 @@ function multiplicacionAlexNinaCopatiti(a,b){
     return a * b;
 }
 console.log("la multiplicacion es:" + multiplicacionAlexNinaCopatiti(a,b));
+=======
+function moduloWilberOjedaValente1(a, b){
+    return a % b;
+}
+
+let a = 10;
+let b = 5;
+
+console.log("La resta es: " + restaAlejandroAmaruCondoriMorales(a, b));
+console.log("La suma es: " + sumaJoaquinOctavioTapiaVera(a, b));
+console.log("El modulo es: " + moduloWilberOjedaValente1(a, b));
+>>>>>>> feature/modulo_Ojeda_Valente_Wilber
