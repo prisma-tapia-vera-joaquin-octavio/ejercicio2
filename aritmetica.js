@@ -35,6 +35,9 @@ function raizGilmerHurtadoPeralta(a){
 function porcentajeJhonnPabloCalsinaSoto(a, b){
     return (a * b) / 100;
 }
+function redondear(a){
+    return Math.round(a);
+}
 console.log("La suma es: " + sumaJoaquinOctavioTapiaVera(a, b));
 console.log("La resta es: " + restaAlejandroAmaruCondoriMorales(a, b));
 console.log("La division es: " + divisionCalepGiovanniPatinoLazarte(a,b));
